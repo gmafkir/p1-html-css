@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en"
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial scale 1.0">
+    <title>TUI- Bookingsformulier</title>
+</head>
+<body>
+    <h1>Boekingsformulier</h1>
+<form>
+
+    <form action=""></form>
+    <label for="firstName">Voornaam</label>
+    <input type="text" name="firstName">
+    <br>
+    <br>
+    <form action=""></form>
+    <label for="lastName">Achternaam</label>
+    <input type="text" name="lastName">
+    <br>
+    <br>
+    <label for="gender">Geslacht</label>
+    <input type="radio" name="gender" value="man" checked>Man
+    <input type="radio" name="gender" value="vrouw">Vrouw
+    <br>
+    <br>
+    <label for="address">Adres</label>
+    <input type="text" name="address">
+    <br>
+    <br>
+    <label for="postalCode">Postcode</label>
+    <input type="text" name="postalCode">
+    <br>
+    <br>
+    <label for="country">Land</label>
+    <input type="text" name="country">
+    <br>
+    <br>
+    <label for="socialSecNum">BSN-Nummer</label>
+    <input type="text" name="socialSecNum" maxlength="9">
+    <br>
+    <br>
+    <label for="destination">Vakantiebestemming</label>
+    <input type="radio" name="destination">Spanje
+    <input type="radio" name="destination">Portugal
+    <input type="radio" name="destination">Frankrijk
+    <input type="radio" name="destination">Italië
+    <br>
+    <br>
+    <label for="departureDate">Datum van vertrek</label>
+    <input type="date" min="2024-09-18" name="departureDate">
+    <br>
+    <br>
+    <label for="arrivalDate">Datum van terugkomst</label>
+    <input type="date" min="2024-09-19" name="arrivalDate">
+    <br>
+    <br>
+    <label for="accompanies">Aantal reisgenoten (max 4 personen)</label>
+    <input type="number" max="4" min="0">
+    <br>
+    <br>
+    <label for="email">E-mail</label>
+    <input type="text" name="email">
+    <br>
+    <br>
+    <label for="passwd">Wachtwoord</label>
+    <input type="password" name="passwd">
+    <br>
+    <br>
+    <button class="bookNow" type="button">Boek nu!</button>
+</form>
+</body>
