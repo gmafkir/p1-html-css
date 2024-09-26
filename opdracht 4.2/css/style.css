@@ -1,6 +1,6 @@
 h1 {
     font-size: 24px;
-    color:blue;
+    color:rgb(0, 0, 0); /*van color: blue; veranderd*/
     font-style: italic;
     font-weight: bold;
 }
@@ -18,7 +18,7 @@ h3 {
 }
 
 p {
-    color: #4D4D4D  ;
+    color: #000000  ; /*van #4D4D4D veranderd.*/
 }
 
 .p1 {
@@ -28,4 +28,11 @@ p {
 a {
     color: #8A2BE2;
     text-decoration: none;
+}
+
+.headerImg {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
 }
