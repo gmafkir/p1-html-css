@@ -36,3 +36,7 @@ a {
     margin-right: auto;
     width: 50%;
 }
+
+.article {
+    border-style: dotted;
+}
